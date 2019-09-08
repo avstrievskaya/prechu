@@ -208,8 +208,6 @@ text-decoration: none;
 
 .shopping_cart{
     max-width: 895px;
-    margin-bottom: 50px;
-    margin-left: 168px;
     margin: 0 auto;
 }
 
@@ -249,6 +247,7 @@ text-decoration: none;
 }
 
 .footer{
+    margin-top: 50px;
     border-top: 1px solid #e5e5e5;
 }
 
