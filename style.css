@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/myriadpro/subset-MyriadPro-Regular.eot');
+    src: url('fonts/myriadpro/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/myriadpro/subset-MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/myriadpro/subset-MyriadPro-Regular.woff') format('woff'),
+        url('fonts/myriadpro/subset-MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/myriadpro/subset-MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Myriad Pro';
+}
+
+.header{
+    max-width: 947px;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left
+}
+
+.header_navigation{
+    float: right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.header_image, .header_title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_image{
+    width: 44px;
+    height: 44px;
+    margin-right: 15px;
+}
+
+.header_title{
+    color: #000000;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    margin-top: 31px;
+    margin-bottom: 27px;
+}
+
+.header_navigation{
+    margin-top: 37px;
+    margin-bottom: 36px;
+}
+
+.header_nav_item{
+    display: inline;
+    margin-left: 31px;
+    font-size: 20px;
+}
+
+.header_nav_link{
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+.header_nav_item:hover{
+    border-bottom: 3px solid #5094f2;
+    padding-bottom: 38px;
+}
+
+.sign_up{
+    background-image: url(image/dsfsdfsdfds.png);
+    background-size: cover;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 38px 0 16px 0;
+}
+
+.sign_up_image{
+    float: left;
+    width: 345px;
+    height: 436px;
+    margin-top: 38px;
+    margin-bottom: 16px;
+}
+
+.sign_up_content{
+    float: right;
+    color: #ffffff;
+    margin-top: 153px;
+}
+
+.sign_title{
+    font-size: 42px;
+    margin: 0 0 20px 0;
+}
+
+.sign_text_1{
+    margin: 0 0 24px 0;
+    font-size: 26px;
+}
+
+.sign_text_2{
+    margin: 0 0 36px 0;
+    font-size: 26px;
+}
+
+.sign_up_button{
+    background-color:#5094f2;
+    padding: 9px 11px;
+    max-width: 172px;
+    border: 0;
+}
+
+.sign_up_title{
+color: #ffffff;
+font-size: 22px;
+line-height: 45px;
+text-decoration: none;
+}
+
+
+.sign_up_button_img, .sign_up_title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cards{
+    text-align: center;
+    padding: 57px 136px 94px 177px;
+}
+
+.card{
+    max-width: 248px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card:first-child{
+    margin-right: 80px;
+}
+
+.card:nth-child(2){
+    margin-right: 80px;
+}
+
+.card_icon{
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    margin: 0 auto;
+    background-image: url(image/blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_icon__second{
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background-color: #d94748;
+    margin: 0 auto;
+    background-image: url(image/red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card_icon__third{
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    background-color: #ebbb11;
+    margin: 0 auto;
+    background-image: url(image/yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card_title{
+    color: #5094f2;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.card_text{
+    color: #909090;
+    font-size: 14px;
+}
+
+.content_image{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.shopping_cart{
+    max-width: 895px;
+    margin-bottom: 50px;
+    margin-left: 168px;
+    margin: 0 auto;
+}
+
+.shopping_cart_content{
+    float: right;
+    margin-top: 16px;
+}
+
+.shopping_cart_image{
+    background-image: url(image/cart.png);
+    width: 371px;
+    height: 279px;
+    float: left;
+    margin-top: 36px;
+    padding-left: 159px;
+}
+
+.shopping_cart_box{
+    color: #6f7173;
+    line-height: 45px;
+    font-size: 42px;
+    line-height: 45px;
+    padding-left: 14px;
+}
+
+.shopping_cart_content_title{
+    color: #6f7173;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.shopping_cart_content_text{
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer{
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer_content{
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 34px 0 45px 0;
+    text-align: center;
+}
